@@ -7,11 +7,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
 	  
-	  @media (max-width: 768px) {
-   .container {
-    flex-direction: column;
-    padding: 10px;
-  }
+@media (max-width: 768px) {
+  .nav { flex-direction: column; }
+  .sidebar { display: none; }
+  .content { width: 100%; padding: 10px; }
+}
+   .container { max-width: 1200px; width: 100%; margin: auto; }
 
     img {
     width: 100%;
